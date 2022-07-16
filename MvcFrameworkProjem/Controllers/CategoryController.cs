@@ -11,15 +11,15 @@ namespace MvcFrameworkProjem.Controllers
 {
     public class CategoryController : Controller
     {
-        
+
         public ActionResult Index()
         {
             CategoryManager cm = new CategoryManager();
             return View();
         }
-        //public ActionResult  GetCategoryList()
-        //{
-        //  var categoryvalues=
-        //}
+        public ActionResult GetCategoryList()
+        {
+            return View();
+        }
     }
 }
