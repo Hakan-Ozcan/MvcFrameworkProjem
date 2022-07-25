@@ -9,6 +9,8 @@ namespace EntityLayer.Concrete
 {
     public class Category
     {
+        public string categoryname;
+
         [Key]
         public int CategoryID { get; set; }
         [StringLength(50)]
@@ -17,6 +19,6 @@ namespace EntityLayer.Concrete
         public string CategoryDescription { get; set; }
         public bool CategoryStatus { get; set; }
         public ICollection<Heading> Headings { get; set; }
-
+      
     }
 }
