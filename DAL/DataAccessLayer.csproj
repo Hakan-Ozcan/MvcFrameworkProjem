@@ -68,6 +68,15 @@
     <Compile Include="EntityFramework\EfContentDal.cs" />
     <Compile Include="EntityFramework\EfHeadinngDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
+    <Compile Include="Migrations\202207311222105_mig7.cs" />
+    <Compile Include="Migrations\202207311222105_mig7.designer.cs">
+      <DependentUpon>202207311222105_mig7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207311825066_mig_writertitleadd.cs" />
+    <Compile Include="Migrations\202207311825066_mig_writertitleadd.designer.cs">
+      <DependentUpon>202207311825066_mig_writertitleadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +88,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202207311222105_mig7.resx">
+      <DependentUpon>202207311222105_mig7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207311825066_mig_writertitleadd.resx">
+      <DependentUpon>202207311825066_mig_writertitleadd.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
