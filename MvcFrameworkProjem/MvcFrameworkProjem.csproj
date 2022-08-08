@@ -138,6 +138,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminCategoryController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="Controllers\HeadingController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TestController.cs" />
@@ -359,6 +360,14 @@
     <Content Include="AdminLTE-3.0.4\pages\UI\sliders.html" />
     <Content Include="AdminLTE-3.0.4\pages\UI\timeline.html" />
     <Content Include="AdminLTE-3.0.4\pages\widgets.html" />
+    <Content Include="AdminLTE-3.0.4\photos\men.png" />
+    <Content Include="AdminLTE-3.0.4\photos\men1.png" />
+    <Content Include="AdminLTE-3.0.4\photos\men3.png" />
+    <Content Include="AdminLTE-3.0.4\photos\men4.png" />
+    <Content Include="AdminLTE-3.0.4\photos\women1.png" />
+    <Content Include="AdminLTE-3.0.4\photos\women2.png" />
+    <Content Include="AdminLTE-3.0.4\photos\women3.png" />
+    <Content Include="AdminLTE-3.0.4\photos\women4.png" />
     <Content Include="AdminLTE-3.0.4\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
     <Content Include="AdminLTE-3.0.4\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="AdminLTE-3.0.4\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
@@ -2288,6 +2297,7 @@
     <Content Include="Views\Writer\EditWriter.cshtml" />
     <Content Include="Views\Heading\Index.cshtml" />
     <Content Include="Views\Heading\AddHeading.cshtml" />
+    <Content Include="Views\Heading\ContentByHeading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

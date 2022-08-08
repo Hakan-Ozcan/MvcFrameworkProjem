@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL.EntityFramework
 {
-    public class EfContentDal : GenericRepository<Category>, ICategoryDal
+    public class EfContentDal : GenericRepository<Content>, IContentDal
     {
     }
 }

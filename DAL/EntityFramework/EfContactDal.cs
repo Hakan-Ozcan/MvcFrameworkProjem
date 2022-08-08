@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL.EntityFramework
 {
-    public class EfContactDal : GenericRepository<Category>, ICategoryDal
+    public class EfContactDal : GenericRepository<Contact>, IContactDal
     {
     }
 }
