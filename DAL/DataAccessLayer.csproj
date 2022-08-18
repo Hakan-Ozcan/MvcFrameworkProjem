@@ -96,6 +96,14 @@
     <Compile Include="Migrations\202208161332150_message_add.designer.cs">
       <DependentUpon>202208161332150_message_add.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202208181343021_messageCONTACT.cs" />
+    <Compile Include="Migrations\202208181343021_messageCONTACT.designer.cs">
+      <DependentUpon>202208181343021_messageCONTACT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208181349195_contactdaterepair.cs" />
+    <Compile Include="Migrations\202208181349195_contactdaterepair.designer.cs">
+      <DependentUpon>202208181349195_contactdaterepair.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -130,6 +138,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202208161332150_message_add.resx">
       <DependentUpon>202208161332150_message_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208181343021_messageCONTACT.resx">
+      <DependentUpon>202208181343021_messageCONTACT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208181349195_contactdaterepair.resx">
+      <DependentUpon>202208181349195_contactdaterepair.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
