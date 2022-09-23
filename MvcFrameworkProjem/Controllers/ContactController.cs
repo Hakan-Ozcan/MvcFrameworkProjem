@@ -13,13 +13,16 @@ namespace MvcFrameworkProjem.Controllers
     {
         ContactManager cm = new ContactManager(new EfContactDal());
         ContactValidator cv = new ContactValidator();
+       
         public ActionResult Index()
         {
+            
             var contactvalues = cm.GetList();
             return View(contactvalues);
         }
         public ActionResult GetContactDetails(int id)
         {
+            ViewBag.message = "anan zaa";
             var contactvalues= cm.GetByID(id);
             return View(contactvalues);
         }
@@ -27,5 +30,6 @@ namespace MvcFrameworkProjem.Controllers
         {
             return PartialView();
         }
+        
     }
 }
