@@ -110,6 +110,10 @@
     <Compile Include="Migrations\202209230919459_add_image_file.designer.cs">
       <DependentUpon>202209230919459_add_image_file.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202209261034401_admin_class_add.cs" />
+    <Compile Include="Migrations\202209261034401_admin_class_add.designer.cs">
+      <DependentUpon>202209261034401_admin_class_add.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -153,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202209230919459_add_image_file.resx">
       <DependentUpon>202209230919459_add_image_file.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202209261034401_admin_class_add.resx">
+      <DependentUpon>202209261034401_admin_class_add.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

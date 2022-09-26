@@ -17,6 +17,7 @@ namespace MvcFrameworkProjem.Controllers
     public class CategoryController : Controller
     {
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
+      
         public ActionResult Index()
         {
           
