@@ -34,6 +34,7 @@ namespace MvcFrameworkProjem.Controllers
             return View();
         }
         [HttpPost]
+        
         public ActionResult AddCategory(Category p)
         {
             //  cm.CategoryAddBL(p);
